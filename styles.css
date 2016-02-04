@@ -1,5 +1,27 @@
 header {
-  background-image: url("https://unsplash.it/1920/1920");
+  background-image: url("http://unsplash.it/g/1920/1920");
   background-size: cover;
   height: 523px;
+}
+
+header::after {
+  content: '';
+  
+}
+nav {
+  max-width: 1018px;
+  margin: 0 auto;
+  padding-right: 2.7504912%;
+}
+nav::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.logo-container {
+  float: left;
+}
+
+.header-links {
+  float: right;
 }
